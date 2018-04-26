@@ -1,0 +1,58 @@
+html {
+  position: relative;
+  min-height: 100%; 
+}
+.container-fluid {
+  width: auto;
+  padding: 0 15px; 
+  margin-top: 0.5vh;
+  font-family: "Palatino",serif ;
+}
+.n {
+	margin-bottom: 2vh;
+	display: flex;
+	flex-direction: row;
+	background-color: #006633;
+	height: 13vh;
+}
+.i {
+	border-radius: 25px;
+}
+.chatrow {
+  position: relative;
+  padding: 10px !important;
+  border-bottom: 1px solid #F7F7F7;
+  height: 10vh;
+  margin: 2;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 20px;
+  color: #000000;
+  font-size: 3rem;
+}
+.chatrow .chatimg {
+	 border-radius: 25px;
+	 
+}
+.badge {
+	font-weight: 100;
+	background-color: #006633;
+	font-size: 1rem; 
+}
+.chatrow:hover {
+  background-color: #f2f2f2;
+}
+.setting:hover {
+	background-color: #f2f2f2;
+}
+
+.send {
+	margin-left: 77vw;
+	width:20vw;
+	border-radius: 20px 20px 1px 20px;
+}
+.rcv {
+	margin-right: 75vw;
+	width:20vw;
+	border-radius: 1px 20px 20px 20px;
+}
